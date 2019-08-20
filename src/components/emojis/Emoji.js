@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Emoji.css';
 
 function Emoji({ symbol, title }) {
   return (
-    <section>
-      <span>{symbol} {title}</span>
+    <section className={styles.Emoji}>
+      <span className={styles.symbol}>{symbol}</span>
+      <span className={styles.title}>{title}</span>
     </section>
   );
 }
