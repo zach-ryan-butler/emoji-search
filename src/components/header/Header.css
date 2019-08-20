@@ -1,0 +1,15 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 32px;
+    width: 32px;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}

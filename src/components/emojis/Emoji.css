@@ -1,0 +1,13 @@
+.Emoji {
+  display: flex;
+  align-items: center;
+
+  .symbol {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  .title {
+    font-size: 21px;
+  }
+}
