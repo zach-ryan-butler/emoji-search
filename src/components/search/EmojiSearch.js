@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './EmojiSearch.css';
 
 function EmojiSearch({ text, textHandler }) {
   return (
-    <input
+    <input 
+      className={styles.EmojiSearch}
       type="text"
       value={text}
       onChange={textHandler}
